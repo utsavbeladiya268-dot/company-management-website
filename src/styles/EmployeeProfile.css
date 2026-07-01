@@ -1,0 +1,118 @@
+.profilePage{
+  min-height:100vh;
+  background:#f4f7fc;
+  padding:40px 20px;
+}
+
+.profileCard{
+  max-width:900px;
+  margin:auto;
+  background:#fff;
+  border-radius:20px;
+  overflow:hidden;
+  box-shadow:0 10px 30px rgba(0,0,0,.08);
+}
+
+.profileHeader{
+  background:linear-gradient(135deg,#007bff,#00c6ff);
+  color:white;
+  text-align:center;
+  padding:40px;
+}
+
+.profileAvatar{
+  font-size:100px;
+  margin-bottom:15px;
+}
+
+.profileHeader h2{
+  font-size:32px;
+  margin-bottom:10px;
+}
+
+.profileHeader p{
+  font-size:18px;
+  opacity:.9;
+}
+
+.profileBody{
+  padding:35px;
+}
+
+.profileField{
+  margin-bottom:20px;
+}
+
+.profileField label{
+  display:block;
+  margin-bottom:8px;
+  font-weight:600;
+  color:#333;
+}
+
+.profileInputBox{
+  position:relative;
+}
+
+.profileIcon{
+  position:absolute;
+  left:18px;
+  top:50%;
+  transform:translateY(-50%);
+  color:#666;
+}
+
+.profileInputBox input{
+  width:100%;
+  height:55px;
+  border:1px solid #ddd;
+  border-radius:12px;
+  padding-left:50px;
+  padding-right:15px;
+  font-size:15px;
+  outline:none;
+}
+
+.profileInputBox input:focus{
+  border-color:#007bff;
+}
+
+.profileTextarea{
+  width:100%;
+  min-height:120px;
+  border:1px solid #ddd;
+  border-radius:12px;
+  padding:15px;
+  font-size:15px;
+  resize:none;
+  outline:none;
+}
+
+.profileTextarea:focus{
+  border-color:#007bff;
+}
+
+.profileSaveBtn{
+  width:100%;
+  height:55px;
+  border:none;
+  border-radius:12px;
+  background:linear-gradient(
+    to right,
+    #00c6ff,
+    #0072ff
+  );
+  color:white;
+  font-size:17px;
+  font-weight:600;
+  cursor:pointer;
+
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  gap:10px;
+}
+
+.profileSaveBtn:hover{
+  opacity:.9;
+}
